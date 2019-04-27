@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "homepage": "https://usmanzain9.github.io/movie-info",
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
     "fontawesome": "^4.7.0",
@@ -14,6 +15,8 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
