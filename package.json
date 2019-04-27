@@ -2,8 +2,8 @@
   "name": "blockbuster",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://usmanzain9.github.io/movie-info",
   "dependencies": {
-    "homepage": "https://usmanzain9.github.io/movie-info",
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
     "fontawesome": "^4.7.0",
